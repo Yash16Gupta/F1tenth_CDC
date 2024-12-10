@@ -1,0 +1,17 @@
+/adaptive_pure_pursuit:
+  ros__parameters:
+    max_speed: 35.0
+    min_speed: 25.0
+    max_lookahead: 1.0 
+    min_lookahead: 0.6
+    wheelbase: 0.33
+    beta: 0.5
+    heading_scale: 1.0
+    area_threshold: 1.0
+    speed_factor: 0.3
+    velocity_superintendence_1: 2.1
+    velocity_superintendence_2: 0.8
+    window_size: 5
+    control_velocity: 0.1
+    a_ : 0
+    # raceline_csv_path: "/home/nvidia/Downloads/sahil_mc_raceline.csv"
